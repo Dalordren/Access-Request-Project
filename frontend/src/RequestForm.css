@@ -1,0 +1,46 @@
+#requestformcontainer {
+margin: auto;
+padding-right: 100px;}
+.datebox{
+    text-align: right;
+}
+.textboxes, .datebox {
+    width: 250px;
+    justify-self: start;
+}
+.checkboxes {
+    justify-self: start;
+}
+
+.otherinfo{
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+.section{
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#requestorinfo, #employeeinfo{
+    grid-template-columns: repeat(4,1fr);
+}
+
+#systeminfo {
+    grid-template-columns: repeat(4, 180px 80px);
+    text-align: start;
+    justify-items: end;
+}
+
+#otherinfo{
+  grid-template-columns: 25% 1fr;
+  column-gap: 0.75rem;
+  row-gap: 0.75rem;
+  align-items: center;
+}
+
+label {
+    justify-self: end;
+}
+
